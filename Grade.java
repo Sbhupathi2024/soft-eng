@@ -29,7 +29,7 @@ public class Grade {
      * F less than 60
      */
     private void setLetterGrade() {
-        if (grade > 90)
+        if (grade >= 90)
             this.letterGrade = "A";
         else if (grade >= 80)
             this.letterGrade = "B";
